@@ -1,0 +1,16 @@
+
+#APP CONFIG
+APP_RESULT_FILEPATH: "./outputs"
+
+#LOGGING CONFIG
+LOGGING_FORMAT: "%(asctime)s - %(levelname)s - %(message)s"
+LOGGING_FILENAME: "process_log.log"
+
+#OPENAI CONFIG
+OPENAI_API_KEY: "YOUR_OPENAI_API_KEY"
+OPENAI_MODEL: "gpt-4o-mini"
+OPENAI_PREPROCESS_SYSTEM_CONTENT_PROMPT: "You are an expert at preprocessing unstructured text into clean, structured, and readable content."
+OPENAI_PREPROCESS_EXTRACT_INFO_PROMPT: "You are tasked with all information from the following resume text into a JSON format, ensuring that every detail is preserved exactly as it appears in the original text. Your extraction should be comprehensive and include all sections and details without any omissions or alterations."
+OPENAI_MAX_TOKENS: 16384
+OPENAI_TEMPERATURE: 0
+

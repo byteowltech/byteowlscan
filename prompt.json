@@ -1,0 +1,7 @@
+[
+    {
+        "id": 1,
+        "comment": "Json with Format",
+        "value": "Extract the following information from this resume text and return it in a valid structured JSON format: name, career objectives (short-term, long-term), contact information (email, phone, date of birth), education (university, major, years, GPA, foreign language), skills, work experience (position, dates, description), additional information, and other activities. Let extract the exact content from the resume, do not create creative content that is not mentioned in the resume information and if information not exist then return null or empty .\n\nResume text: {text_chunk}"
+    }
+]

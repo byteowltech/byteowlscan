@@ -1,0 +1,17 @@
+openai
+pdfplumber
+re
+logging
+json
+pdfminer
+pdf2image
+pytesseract
+pillow
+fitz
+yaml
+tqdm
+mammoth
+pydocx
+markdownify
+semantic-text-splitter
+tokenizers
