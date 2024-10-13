@@ -1,0 +1,3 @@
+log_level: DEBUG
+log_file: app.log
+log_format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
